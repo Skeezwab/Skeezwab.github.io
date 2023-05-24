@@ -9,7 +9,6 @@
 
 body {
     background-color: black;
-
 }
 
 .center {
@@ -64,11 +63,14 @@ body {
     width: 75%;
 }
 
+.artist {
+    width: 100%;
+}
 .artist h2{
     display: inline;
     color: white;
     font-family: momstypewriter, Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 .artist-pfp {
