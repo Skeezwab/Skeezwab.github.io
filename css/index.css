@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    border: 3px solid darkred;
+   /* border: 3px solid darkred;*/
     width: 40%;
 }
 
@@ -33,10 +33,9 @@ body {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
+    width: 40%;
     border: 3px solid darkred;
-    border-top: none;
-    
-    
+    /*border-top: none;*/
 }
 
 .nav-wrapper a {
