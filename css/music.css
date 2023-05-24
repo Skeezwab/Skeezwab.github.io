@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'momstypewriter';
+    src: url('fonts/momt___-webfont.woff2') format('woff2'),
+         url('fonts/momt___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 3px solid darkred;
+    padding: 10px;
+    text-align: center;
+}
+
+.latest-release {
+    border: 3px solid darkred;
+    
+}
