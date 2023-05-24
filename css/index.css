@@ -74,6 +74,7 @@ body {
 
 .artist-content {
     display: inline;
+    margin: 5px;
 }
 
 .copyright {
