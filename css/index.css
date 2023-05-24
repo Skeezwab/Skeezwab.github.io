@@ -72,6 +72,10 @@ body {
     margin-right: 5px;
 }
 
+.artist-content {
+    display: inline;
+}
+
 .copyright {
     bottom: 0px;
     color: gray;
