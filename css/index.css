@@ -21,7 +21,7 @@ body {
 
 .logo {
    /* border: 3px solid darkred;*/
-    width: 40%;
+    width: 40vw;
 }
 
 .logo img {
@@ -33,7 +33,7 @@ body {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 40vw;
     border: 3px solid darkred;
     /*border-top: none;*/
 }
@@ -60,6 +60,10 @@ body {
     font-size: 3vw;
 }
 
+.artist-container {
+    width: 50vw;
+}
+
 .artist h2{
     display: inline;
     color: white;
@@ -73,10 +77,11 @@ body {
     color:white;
 }
 
-.artist-content {
+.artist-content img{
     display: inline;
     margin: 5px;
     color:white;
+    max-width: 10%;
 }
 
 .copyright {
