@@ -69,6 +69,7 @@ body {
 
 .artist img {
     border-radius: 50%;
+    margin-right: 5px;
 }
 
 .copyright {
