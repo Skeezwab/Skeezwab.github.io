@@ -24,7 +24,7 @@ body {
     border: 3px solid darkred;   
 }
 
-.latest-release a {
+.latest-release h1 {
     color: white;
     font-family: momstypewriter, Arial, Helvetica, sans-serif;
     font-size: 5vw;
