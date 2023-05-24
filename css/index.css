@@ -20,7 +20,7 @@ body {
 
 .logo {
    /* border: 3px solid darkred;*/
-    width: 40vw;
+    width: 30vw;
 }
 
 .logo img {
@@ -32,7 +32,7 @@ body {
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
-    width: 40vw;
+    width: 30vw;
     border: 3px solid darkred;
     /*border-top: none;*/
 }
@@ -59,6 +59,10 @@ body {
     font-size: 3vw;
 }
 
+.latest-release img {
+    max-width: 40vw;
+}
+
 .artist-container {
     width: 75%;
 }
@@ -74,6 +78,7 @@ body {
 }
 
 .artist-pfp {
+   
     border-radius: 50%;
     margin-right: 5px;
     aspect-ratio: 1 / 1;
@@ -85,7 +90,7 @@ body {
     display: inline;
     margin: 10px;
     color:white;
-    max-width: 25%;
+    max-width: 20%;
 }
 
 .copyright {
