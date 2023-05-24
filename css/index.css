@@ -13,7 +13,8 @@ body {
 }
 
 .center {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 40%;
     border: 3px solid darkred;
     padding: 10px;
@@ -26,6 +27,7 @@ body {
 }
 
 .nav-wrapper {
+    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     border: 3px solid darkred;
@@ -43,4 +45,10 @@ body {
 
 .nav-wrapper a:hover {
     color:lightcoral
+}
+
+.copyright {
+    bottom: 0px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
 }
