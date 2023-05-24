@@ -61,7 +61,7 @@ body {
 }
 
 .artist-container {
-    width: 50vw;
+    width: 75%;
 }
 
 .artist h2{
@@ -75,7 +75,7 @@ body {
     border-radius: 50%;
     margin-right: 5px;
     aspect-ratio: 1 / 1;
-    max-width: 10%;
+    max-width: 5%;
     color:white;
 }
 
