@@ -15,13 +15,13 @@ body {
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
     padding: 10px;
     text-align: center;
 }
 
 .logo {
     border: 3px solid darkred;
+    width: 40%;
 }
 
 .logo img {
@@ -48,6 +48,17 @@ body {
 
 .nav-wrapper a:hover {
     color:lightcoral
+}
+
+.latest-release {
+    width: 75%;
+}
+
+.latest-release h1 {
+    color: white;
+    text-decoration: underline;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
 }
 
 .copyright {
