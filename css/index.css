@@ -70,11 +70,13 @@ body {
 .artist img {
     border-radius: 50%;
     margin-right: 5px;
+    color:white;
 }
 
 .artist-content {
     display: inline;
     margin: 5px;
+    color:white;
 }
 
 .copyright {
