@@ -60,6 +60,17 @@ body {
     font-size: 3vw;
 }
 
+.artist h2{
+    display: inline;
+    color: white;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+.artist img {
+    border-radius: 50%;
+}
+
 .copyright {
     bottom: 0px;
     color: gray;
