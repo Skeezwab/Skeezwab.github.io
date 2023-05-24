@@ -71,9 +71,11 @@ body {
     font-size: 1.5vw;
 }
 
-.artist img {
+.artist-pfp {
     border-radius: 50%;
     margin-right: 5px;
+    aspect-ratio: 1 / 1;
+    max-width: 10%;
     color:white;
 }
 
