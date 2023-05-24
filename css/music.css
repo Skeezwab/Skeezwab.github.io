@@ -16,12 +16,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border: 3px solid darkred;
     padding: 10px;
     text-align: center;
 }
 
 .latest-release {
-    border: 3px solid darkred;
-    
+    border: 3px solid darkred;   
+}
+
+.latest-release a {
+    color: white;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 5vw;
 }
