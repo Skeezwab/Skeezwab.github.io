@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'rockstar';
+    src: url('fonts/rockstar-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/rockstar-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.title  {
+    color: white;
+    font-family: rockstar, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.return-button {
+    position: absolute;
+    color: white;
+    top: 1vh;
+    left: 1vw;
+}
+
+.return-button img {
+    width: 10vw;
+}
+
+.main-text {
+    width: 75vw;
+    border: 3px solid darkred;
+}
+
+.main-text p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+.social-container a {
+    color: lightblue;
+    font-family: rockstar, Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
