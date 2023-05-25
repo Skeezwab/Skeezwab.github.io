@@ -50,9 +50,11 @@ body {
     display: -webkit-flex;
     justify-content: space-between;
     width: 30vw;
+    border-top: 3px solid darkred;
+    border-bottom: 3px solid darkred;
 }
 .social-container a {
-    color: lightblue;
+    color: white;
     font-family: rockstar, Arial, Helvetica, sans-serif;
     font-size: 2vw;
 }

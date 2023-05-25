@@ -49,6 +49,7 @@ body {
 
 .nav-wrapper a {
     color: rgb(255, 255, 255);
+    text-decoration: none;
     font-size: 2vw;
     font-family: rockstar, monospace, Arial, sans-serif;
 }
