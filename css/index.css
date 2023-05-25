@@ -9,15 +9,18 @@
 
 body {
     background-color: black;
-
 }
 
 .center {
-    margin: auto;
-    width: 40%;
-    border: 3px solid darkred;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     text-align: center;
+}
+
+.logo {
+   /* border: 3px solid darkred;*/
+    width: 30vw;
 }
 
 .logo img {
@@ -27,20 +30,74 @@ body {
 
 .nav-wrapper {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
-    border: 3px solid darkred;
-    border-top: none;
-    
-    
+    width: 25vw;
+    border-bottom: 3px solid darkred;
+    border-top: 3px solid darkred;
+    /*border-top: none;*/
 }
 
 .nav-wrapper a {
-    color: white;
-    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
     font-family: momstypewriter, monospace, Arial, sans-serif;
-    text-decoration: none;
 }
 
 .nav-wrapper a:hover {
     color:lightcoral
+}
+
+.latest-release {
+    width: 50vw;
+    height: 25vw;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+}
+
+.artist-container {
+    width: 50vw;
+    position: relative;
+}
+
+.artist {
+    margin-top: 3vh;
+    padding-top: 1vh;
+}
+.artist h2{
+    display: inline;
+    color: white;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.artist-pfp {
+    position: relative;
+    display: inline-block;
+    right: 5%;
+    border-radius: 50%;
+    border: 2px solid red;
+    aspect-ratio: 1 / 1;
+    width: 3vw;
+    color:white;
+}
+
+.artist-content img{
+    display: inline;
+    margin: 10px;
+    margin-top: 20px;
+    color:white;
+    max-width: 20%;
+}
+
+.copyright {
+    bottom: 0px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
 }
