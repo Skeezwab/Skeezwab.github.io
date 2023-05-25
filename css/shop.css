@@ -34,6 +34,17 @@ h1 {
     font-size: 3vw;
 }
 
+.return-button {
+    position: absolute;
+    color: white;
+    top: 1vh;
+    left: 1vw;
+}
+
+.return-button img {
+    width: 10vw;
+}
+
 .description {
     width: 75vw;
     border: 3px solid darkred;
