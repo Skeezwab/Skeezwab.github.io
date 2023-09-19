@@ -18,6 +18,8 @@
 
 body {
     background-color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .center {
@@ -70,35 +72,41 @@ h1 {
     font-size: 3vw;
 }
 
+
+
 .artist-container {
-    width: 50vw;
+    width: 100vw;
     position: relative;
 }
 
 .artist {
     margin-top: 3vh;
     padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .artist-name{
     display: inline;
+    position: relative;
+    top: 5%;
     color: white;
-    margin-bottom: 1vh;
+    margin-bottom: 5vh;
     font-size: 2.5vw;
     text-decoration: underline;
 }
 
-.skeezwab {
+.skeezwab-font {
     font-family: momstypewriter, Arial, Helvetica, sans-serif;
 }
 
-.globill {
+.globill-font {
     font-family: rockstar, Arial, Helvetica, sans-serif;
 }
+
 .artist-pfp {
     position: relative;
     display: inline-block;
     right: 5%;
-    width: 3vw;
+    width: 5vw;
     color:white;
     border-radius: 50%;
     border: 2px solid red;
@@ -106,13 +114,20 @@ h1 {
 
 }
 
+.artist-content iframe,
 .artist-content img{
-    display: inline;
+    position: inline;
     margin: 10px;
     margin-top: 20px;
     color:white;
-    max-width: 20%;
+    max-width: 15%;
 }
+
+#skeezwab {
+    background-size: 100vw;
+    background-image:url(../img/skeezwab-background.jpg); 
+}
+
 
 .copyright {
     bottom: 0px;
