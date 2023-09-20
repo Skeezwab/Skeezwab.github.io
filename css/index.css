@@ -27,6 +27,7 @@ body::-webkit-scrollbar {
 }
 
 .center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -34,7 +35,7 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-   /* border: 3px solid darkred;*/
+    /* border: 3px solid darkred;*/
     width: 30vw;
 }
 
@@ -64,18 +65,19 @@ body::-webkit-scrollbar {
     color:lightcoral
 }
 
-.latest-release {
-    width: 50vw;
-    height: 25vw;
-}
-
 h1 {
     color: white;
-    text-decoration: underline;
+    text-decoration: underline; 
     font-family: rockstar, Arial, Helvetica, sans-serif;
     font-size: 3vw;
 }
 
+#latest-release {
+    width: 50vw;
+    aspect-ratio: 16 / 9;
+    border: 3px solid darkred;  
+    margin-top: 1vh;
+}
 
 
 .artist-container {
@@ -92,30 +94,20 @@ h1 {
 .artist-name{
     display: inline;
     position: relative;
-    top: 5%;
+    top: -10%;
     color: white;
     margin-bottom: 5vh;
     font-size: 2.5vw;
     text-decoration: underline;
 }
 
-.skeezwab-font {
-    font-family: momstypewriter, Arial, Helvetica, sans-serif;
-}
-
-.globill-font {
-    font-family: rockstar, Arial, Helvetica, sans-serif;
-    background-color: black;
-}
-
-
 .artist-content iframe,
 .artist-content img{
-    position: inline;
     margin: 10px;
     margin-top: 20px;
+    aspect-ratio: 16 / 9;
     color:white;
-    max-width: 15%;
+    max-width: 20vw;
 }
 
 #skeezwab {
@@ -128,9 +120,51 @@ h1 {
     background-image:url(../img/globill-banner.jpg);
 }
 
+#skeezwab h2 {
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+}
+
+#globill h2 {
+    font-family: rockstar, Arial, Helvetica, sans-serif;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: black;
+}
 
 .copyright {
-    bottom: 0px;
+    bottom: 0%;
     color: gray;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* mobile */
+@media (max-width: 750px) {  
+
+    .logo {
+        /* border: 3px solid darkred;*/
+        width: 75vw;
+    }
+
+    .nav-wrapper {
+        width: 70vw;
+    }
+
+    .nav-wrapper a {
+        font-size: 7vw;
+    }
+
+    h1 {
+       font-size: 10vw; 
+   }
+
+   #latest-release iframe{
+       width: 50vw; 
+   }
+
+    #latest-release h1 {
+        font-size: 7vw;
+    }
+
+}
+
+
