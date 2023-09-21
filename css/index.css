@@ -101,6 +101,10 @@ h1 {
     text-decoration: underline;
 }
 
+.artist-name:hover {
+    color: lightcoral;
+}
+
 .artist-content iframe,
 .artist-content img{
     margin: 10px;
