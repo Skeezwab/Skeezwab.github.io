@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'momstypewriter';
+    src: url('fonts/momt___-webfont.woff2') format('woff2'),
+         url('fonts/momt___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockstar';
+    src: url('fonts/rockstar-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/rockstar-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: black;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#title {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-image: url(../img/skeezwab-background.jpg);
+    background-size: 100%;
+}
+
+#title h1 {
+    color: white;
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+h2 {
+    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-decoration: underline;
+    color: white;
+}
+
+#latest-release {
+    width: 50vw;
+    aspect-ratio: 16 / 9;
+    border: 3px solid darkred;  
+    margin-top: 1vh;
+}
+
+#album-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    border-bottom: 3px solid darkred;
+}
+
+#album-container img {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    aspect-ratio: 1 / 1;
+    width: 15vw;
+    max-width: 15vw;
+    height: auto;
+}
