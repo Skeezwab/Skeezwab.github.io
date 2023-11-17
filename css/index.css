@@ -136,10 +136,14 @@ h1 {
     background-color: black;  
 }
 
-#mrbones {
+#scotts-valley {
    background-image:url(../img/scotts-valley-flag.png); 
    background-size: 100%;
    font-family: 'Times New Roman', Times, serif;
+}
+
+#scotts-valley a {
+   background-color: black;
 }
 
 #copyright {
