@@ -38,7 +38,6 @@ body::-webkit-scrollbar {
 #title {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-image: url(../img/skeezwab-background.jpg);
     background-size: 100%;
 }
 
@@ -48,13 +47,13 @@ body::-webkit-scrollbar {
     color: white;
     background-color: black;
     padding: 10px;
-    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-family: momstypewriter, Arial, sans-serif;
     font-size: 3vw;
     margin-bottom: 2vh;
 }
 
 h2 {
-    font-family: momstypewriter, Arial, Helvetica, sans-serif;
+    font-family: momstypewriter, Arial, sans-serif;
     font-size: 2vw;
     text-decoration: underline;
     color: white;
