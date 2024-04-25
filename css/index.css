@@ -137,19 +137,22 @@ h1 {
 }
 
 #scotts-valley {
-   background-image:url(../img/scotts-valley-flag.png); 
-   background-size: 100%;
-   font-family: 'Times New Roman', Times, serif;
+  background-image:url(../img/scotts-valley-flag.png); 
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #scotts-valley a {
-   background-color: black;
+  background-color: black;
 }
 
-#copyright {
-    color: gray;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1vw;
+copyright {
+  display: block;
+  color: #444444;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1vw;
+  margin-top: 10px;
+  margin-left: 0.55vw;
 }
 
 /* mobile */
