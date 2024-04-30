@@ -67,3 +67,19 @@ span {
 .social-container a:hover {
     color:lightgray;
 }
+
+/* mobile */
+@media (max-width: 750px) { 
+
+    .title {
+        font-size: 10vw;
+    }
+
+    .social-container {
+        width: 75vw;
+    }
+
+    .social-container a {
+        font-size: 4vw;
+    }
+}

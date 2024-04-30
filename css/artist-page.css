@@ -52,6 +52,17 @@ body::-webkit-scrollbar {
     margin-bottom: 2vh;
 }
 
+.return-button {
+    position: absolute;
+    color: white;
+    top: 1vh;
+    left: 1vw;
+}
+
+.return-button img {
+    width: 10vw;
+}
+
 h2 {
     font-family: momstypewriter, Arial, sans-serif;
     font-size: 2vw;
